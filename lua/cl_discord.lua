@@ -11,7 +11,7 @@ local map_list = {
     rp_downtown_tits_v2 = true
 }
 local image_fallback = "default"
-local discord_id = "626155559779041331"
+local discord_id = "468159237202378762"
 local refresh_time = 60
 
 local discord_start = discord_start or -1
