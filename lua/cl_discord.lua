@@ -4,10 +4,11 @@ if file.Find("lua/bin/gmcl_gdiscord_*.dll", "GAME")[1] == nil then return end
 require("gdiscord")
 
 -- Configuration
-local map_restrict = false -- Should a display default image be displayed if the map is not in a given list?
+local map_restrict = true -- Should a display default image be displayed if the map is not in a given list?
 local map_list = {
     gm_flatgrass = true,
-    gm_construct = true
+    gm_construct = true,
+    rp_downtown_tits_v2 = true
 }
 local image_fallback = "default"
 local discord_id = "626155559779041331"
