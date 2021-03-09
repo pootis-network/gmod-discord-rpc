@@ -1,6 +1,6 @@
 -- This requires a special module to be installed before it works correctly
 -- Sorry to disappoint you
-if file.Find("lua/bin/gmcl_gdiscord_*.dll", "GAME")[1] == nil then return end
+if file.Find("lua/bin/gmcl_PNdiscord_*.dll", "GAME")[1] == nil then return end
 require("gdiscord")
 
 -- Configuration
