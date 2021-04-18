@@ -16,11 +16,11 @@ jobs:
       matrix:
         config:
         - {
-          name: "Windows 32Bit", artifact: "gmcl_gdiscord_win32.dll",
+          name: "Windows 32Bit", artifact: "gmcl_pndiscord_win32.dll",
           cmakeargs: "-A Win32"
         }
         - {
-          name: "Windows 64Bit", artifact: "gmcl_gdiscord_win64.dll",
+          name: "Windows 64Bit", artifact: "gmcl_pndiscord_win64.dll",
           cmakeargs: "-A x64"
         }
 
@@ -78,7 +78,7 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: "gmcl_gdiscord_linux.dll"
-        path: ${{runner.workspace}}/build/gmcl_gdiscord_linux.dll
+        path: ${{runner.workspace}}/build/gmcl_pndiscord_linux.dll
 
   linux64:
     runs-on: ubuntu-latest
@@ -104,4 +104,4 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: "gmcl_gdiscord_linux64.dll"
-        path: ${{runner.workspace}}/build/gmcl_gdiscord_linux64.dll
+        path: ${{runner.workspace}}/build/gmcl_pndiscord_linux64.dll
