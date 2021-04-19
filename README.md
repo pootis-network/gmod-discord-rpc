@@ -51,3 +51,9 @@ mkdir build && cd build
 cmake .. && cmake --build .
 ```
 3. The .dll should now be in `gmod-discord-rpc/cpp/build/`
+
+## Copyright
+Copyright (C) 2021 Fluffy Studios
+
+Copyright (C) 2021 Pootis Networks
+
