@@ -23,7 +23,7 @@ add_library(pndiscord SHARED GRPCTest.cpp)
 target_link_libraries(pndiscord discord-rpc)
 target_link_libraries(pndiscord gmod-module-base)
 
-SET_TARGET_PROPERTIES(gdiscord PROPERTIES PREFIX "gmcl_")
+SET_TARGET_PROPERTIES(pndiscord PROPERTIES PREFIX "gmcl_")
 if(UNIX)
     if(64BIT)
         SET_TARGET_PROPERTIES(pndiscord PROPERTIES SUFFIX "_linux64.dll")
