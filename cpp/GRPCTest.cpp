@@ -172,6 +172,8 @@ LUA_FUNCTION(UpdateDiscordStatus) {
     discordP.joinSecret = LUA->GetString();
     LUA->GetField(1, "spectateSecret");
     discordP.spectateSecret = LUA->GetString();
+    LUA->GetField(1, "buttons");
+    discordP.buttons = LUA->GetString();
     LUA->GetField(1, "instance");
     discordP.instance = LUA->GetNumber();
 
